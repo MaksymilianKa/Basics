@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Sponsor Blocker",
+  "description": "A community blocking sponsored parts on youtube videos",
+  "version": "1.0.0",
+      "permissions": [
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    },
+    "action": {
+      "default_popup": "hello.html",
+      "default_icon": "hello_extensions.png"
+    }  
+  }
+
+  
+
+
